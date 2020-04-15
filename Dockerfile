@@ -3,7 +3,6 @@ ENV sourcesdir /go/src/github.com/microservices-demo/user/
 ENV MONGO_HOST mytestdb:27017
 ENV HATEAOS user
 ENV USER_DATABASE mongodb
-
 COPY . ${sourcesdir}
 RUN apk update
 RUN apk add git
