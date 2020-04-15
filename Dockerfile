@@ -7,4 +7,4 @@ RUN apk update
 RUN apk add git
 RUN go get -v github.com/Masterminds/glide && cd /go/src/github.com/microservices-demo/user && glide install && go install
 ENTRYPOINT user
-EXPOSE 8084
+EXPOSE 8085
